@@ -30,8 +30,8 @@
       <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
     </div>
     <div class="d-md-flex flex-md-equal w-100 pl-md-3">
-      <div class="bg-light mr-md-3 mb-4 text-center overflow-hidden" style="flex: 1;">
-        <div class="card-body pb-0">
+      <div class="bg-light mr-md-3 mb-3 text-center overflow-hidden" style="flex: 1;">
+        <div class="card-body">
           <div class="p-3">
             <h2 class="display-5">
               Pirates of the Caribbean: Dead Men Tell No Tales
@@ -41,20 +41,22 @@
             </p>
           </div>
           <div
-            class="card bg-white shadow-sm mx-auto"
-            style="height: 300px; border-radius: 21px 21px 0 0; max-width: 700px;"
+            class="card bg-white shadow-sm mx-auto mb-3 overflow-hidden"
+            style="height: 300px; border-radius: 21px; max-width: 700px;"
           >
-            <apexcharts
-              height="300"
-              type="line"
-              :options="chartOptions"
-              :series="series"
-            ></apexcharts>
+            <div style="width: 105%; margin-left: -3.5%;">
+              <apexcharts
+                height="315"
+                type="line"
+                :options="chartOptions"
+                :series="series"
+              ></apexcharts>
+            </div>
           </div>
         </div>
       </div>
-      <div class="bg-light mr-md-3 mb-4 text-center overflow-hidden" style="flex: 1;">
-        <div class="card-body pb-0">
+      <div class="bg-light mr-md-3 mb-3 text-center overflow-hidden" style="flex: 1;">
+        <div class="card-body">
           <div class="p-3">
             <h2 class="display-5">
               Altered Carbon: Season 1 Episode 5 (The Wrong Man)
@@ -64,12 +66,12 @@
             </p>
           </div>
           <div
-            class="card bg-white shadow-sm mx-auto overflow-hidden"
-            style="height: 300px; border-radius: 21px 21px 0 0; max-width: 700px;"
+            class="card bg-white shadow-sm mx-auto mb-3 overflow-hidden"
+            style="height: 300px; border-radius: 21px; max-width: 700px;"
           >
             <div style="width: 105%; margin-left: -3.5%;">
               <apexcharts
-                height="300"
+                height="315"
                 type="line"
                 :options="chartOptions"
                 :series="series"
@@ -87,7 +89,7 @@
   top: -30%;
   right: auto;
   bottom: 0;
-  left: 5%;
+  left: 10%;
   /* background-color: #e5e5e5; */
 }
 .product-device {
