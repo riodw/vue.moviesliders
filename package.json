@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "node gh-pages-deploy.js"
+    "deploy": "node scripts/gh-pages-deploy.js"
   },
   "dependencies": {
     "apexcharts": "^3.22.0",
