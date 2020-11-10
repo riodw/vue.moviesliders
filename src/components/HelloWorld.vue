@@ -14,17 +14,16 @@
         <h1 class="display-4 font-weight-normal">
           MovieSliders
         </h1>
-        <p class="lead font-weight-normal">
+        <!-- <p class="lead font-weight-normal">
           And an even wittier subheading to boot. Jumpstart your marketing efforts with
           this example based on Apple’s marketing pages.
-        </p>
+        </p> -->
         <a class="btn btn-outline-dark" href="#">
           App Store
         </a>
-        &nbsp;
-        <a class="btn btn-outline-dark" href="#">
+        <!-- <a class="btn btn-outline-dark" href="#">
           Android
-        </a>
+        </a> -->
       </div>
       <div class="product-device shadow-sm d-none d-md-block"></div>
       <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
