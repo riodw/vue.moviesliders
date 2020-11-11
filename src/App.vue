@@ -1,16 +1,20 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <Nav />
+    <router-view />
+    <Footer />
   </div>
 </template>
 
 <script>
-import HelloWorld from "@/components/HelloWorld.vue";
+import Nav from "@/components/Nav.vue";
+import Footer from "@/components/Footer.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    Nav,
+    Footer,
   },
 };
 </script>
