@@ -26,6 +26,12 @@
       >
         Motivation
       </a>
+      <a
+        href="https://www.facebook.com/MovieSliders"
+        class="py-2 d-none d-md-inline-block text-light"
+      >
+        Support
+      </a>
       <router-link to="/privacy" class="py-2 d-none d-md-inline-block text-light">
         Privacy
       </router-link>

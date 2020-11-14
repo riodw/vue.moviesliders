@@ -1,8 +1,16 @@
+<style>
+.line-height-1 {
+  line-height: 1;
+}
+</style>
+
 <template>
   <div id="app">
     <Nav />
     <router-view />
-    <Footer />
+    <div class="bg-light">
+      <Footer />
+    </div>
   </div>
 </template>
 
@@ -28,5 +36,6 @@ export default {
   /* text-align: center; */
   /* color: #2c3e50; */
   /* margin-top: 60px; */
+  /* line-height: 1; */
 }
 </style>

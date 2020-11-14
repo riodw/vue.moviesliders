@@ -1,7 +1,7 @@
 <template>
   <footer class="container py-5">
     <div class="row">
-      <div class="col-12 col-md">
+      <div class="col-md col-sm-12">
         <!-- <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -25,9 +25,11 @@
         <div class="overflow-hidden mb-2" style="border-radius: .6rem; width: 40px;">
           <img src="@/assets/logo.png" class="w-100" alt="logo" />
         </div>
-        <small class="d-block mb-3 text-muted">© 2020</small>
+        <small class="d-block mb-3 text-muted">
+          © 2020
+        </small>
       </div>
-      <div class="col-6 col-md">
+      <div class="col-md col-sm-12">
         <h5>
           App
         </h5>
@@ -39,7 +41,7 @@
           </li>
         </ul>
       </div>
-      <div class="col-6 col-md">
+      <div class="col-md col-sm-12">
         <h5>
           Project
         </h5>
@@ -56,7 +58,7 @@
           </li>
         </ul>
       </div>
-      <div class="col-6 col-md">
+      <div class="col-md col-sm-12">
         <h5>About</h5>
         <ul class="list-unstyled text-small">
           <li>

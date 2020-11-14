@@ -1,7 +1,7 @@
-import Vue from "vue";
+// import Vue from "vue";
 import VueRouter from "vue-router";
 
-Vue.use(VueRouter);
+// Vue.use(VueRouter);
 
 const routes = [
   {
@@ -23,6 +23,11 @@ const routes = [
     path: "/privacy",
     name: "Privacy",
     component: () => import("../views/Privacy.vue"),
+  },
+  {
+    path: "/support",
+    name: "Support",
+    component: () => import("../views/Support.vue"),
   },
 ];
 

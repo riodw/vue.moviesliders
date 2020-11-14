@@ -1,5 +1,5 @@
 <template>
-  <div class="example">
+  <div class="about">
     <div class="text-center">
       <h1>
         MovieSliders
@@ -36,7 +36,7 @@
 
 <script>
 export default {
-  name: "Chart",
+  name: "About",
   components: {},
   data: function() {
     return {};
