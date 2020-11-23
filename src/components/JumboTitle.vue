@@ -53,7 +53,10 @@
           <br />
           We aim to fix that.
         </p>
-        <a class="btn btn-outline-dark" href="#">
+        <a
+          href="https://apps.apple.com/us/app/moviesliders/id1540180928"
+          class="btn btn-outline-dark"
+        >
           App Store
         </a>
         <!-- <a class="btn btn-outline-dark" href="#">
